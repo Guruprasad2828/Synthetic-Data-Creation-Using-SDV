@@ -1,10 +1,13 @@
 # Synthetic-Data-Creation-Using-SDV
+
 The SDV project is a comprehensive Python library designed to generate realistic synthetic data for tabular, relational, and time-series datasets, using advanced machine learning models to emulate the statistical properties and relationships of real data, enabling privacy-preserving data sharing, augmentation, and analysis.
 
 # Project Overview
+
 This project uses the Synthetic Data Vault (SDV) library to generate high-quality synthetic data based on the Automobile dataset. Leveraging advanced machine learning models like GANs, SDV learns the relationships between features and the target variable to create realistic synthetic data for use in model training, data augmentation, and privacy-sensitive scenarios.
 
 # Dataset Description
+
   1) The Automobile dataset includes car attributes such as:
 
   2) Target variable: mpg (miles per gallon)
@@ -14,6 +17,7 @@ This project uses the Synthetic Data Vault (SDV) library to generate high-qualit
   4) Unique identifiers like name are excluded from modeling.
 
 # How to Use
+
   1) Install the SDV library with pip install sdv.
 
   2)Load and preprocess the Automobile dataset.
@@ -23,6 +27,7 @@ This project uses the Synthetic Data Vault (SDV) library to generate high-qualit
   4)Generate synthetic samples as needed for your analysis or model building.
 
 # Benefits
+
   1)Addresses data scarcity and augment training sets
 
   2)Preserves feature relationships and data privacy
